@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06285A331F819571FC69ED64 /* libPods-CadastroUnico-CadastroUnicoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF94E845B05DAB24B04BB4F9 /* libPods-CadastroUnico-CadastroUnicoUITests.a */; };
+		1B489DDE28DD551000739D33 /* libAlamofire.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B489DDD28DD551000739D33 /* libAlamofire.a */; };
+		1B489DE028DD55C600739D33 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B489DDF28DD55C600739D33 /* Register.swift */; };
+		1B489DE328DD586400739D33 /* RestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B489DE228DD586400739D33 /* RestManager.swift */; };
+		1B489DE428DD586400739D33 /* RestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B489DE228DD586400739D33 /* RestManager.swift */; };
+		1B489DE528DD586400739D33 /* RestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B489DE228DD586400739D33 /* RestManager.swift */; };
+		1B489DED28DD5D0F00739D33 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B489DEC28DD5D0F00739D33 /* RegisterViewModel.swift */; };
+		1B489DEE28DD5D0F00739D33 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B489DEC28DD5D0F00739D33 /* RegisterViewModel.swift */; };
+		1B489DEF28DD5D0F00739D33 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B489DEC28DD5D0F00739D33 /* RegisterViewModel.swift */; };
 		1B9D9A9828DD53E000929699 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D9A9728DD53E000929699 /* AppDelegate.swift */; };
 		1B9D9A9A28DD53E000929699 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D9A9928DD53E000929699 /* SceneDelegate.swift */; };
-		1B9D9A9C28DD53E000929699 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D9A9B28DD53E000929699 /* ViewController.swift */; };
+		1B9D9A9C28DD53E000929699 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D9A9B28DD53E000929699 /* RegisterViewController.swift */; };
 		1B9D9A9F28DD53E000929699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D9A9D28DD53E000929699 /* Main.storyboard */; };
 		1B9D9AA228DD53E000929699 /* CadastroUnico.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D9AA028DD53E000929699 /* CadastroUnico.xcdatamodeld */; };
 		1B9D9AA428DD53E300929699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D9AA328DD53E300929699 /* Assets.xcassets */; };
 		1B9D9AA728DD53E300929699 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D9AA528DD53E300929699 /* LaunchScreen.storyboard */; };
 		1B9D9AB228DD53E300929699 /* CadastroUnicoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D9AB128DD53E300929699 /* CadastroUnicoTests.swift */; };
 		1B9D9ABD28DD53E300929699 /* CadastroUnicoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D9ABC28DD53E300929699 /* CadastroUnicoUITests.swift */; };
+		6B4C944F154CF7F22A67F037 /* libPods-CadastroUnicoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC459630610C914631D3B85 /* libPods-CadastroUnicoTests.a */; };
+		AC868671B43045B501FE99DD /* libPods-CadastroUnico.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E55A4BFAB1933E112B9F8D98 /* libPods-CadastroUnico.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02C0423E76A95D6BCAEE00B1 /* Pods-CadastroUnico.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CadastroUnico.release.xcconfig"; path = "Target Support Files/Pods-CadastroUnico/Pods-CadastroUnico.release.xcconfig"; sourceTree = "<group>"; };
+		1B489DDD28DD551000739D33 /* libAlamofire.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAlamofire.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B489DDF28DD55C600739D33 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		1B489DE228DD586400739D33 /* RestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestManager.swift; sourceTree = "<group>"; };
+		1B489DEC28DD5D0F00739D33 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		1B9D9A9428DD53E000929699 /* CadastroUnico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CadastroUnico.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9D9A9728DD53E000929699 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B9D9A9928DD53E000929699 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1B9D9A9B28DD53E000929699 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B9D9A9B28DD53E000929699 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		1B9D9A9E28DD53E000929699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B9D9AA128DD53E000929699 /* CadastroUnico.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CadastroUnico.xcdatamodel; sourceTree = "<group>"; };
 		1B9D9AA328DD53E300929699 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +67,14 @@
 		1B9D9AB828DD53E300929699 /* CadastroUnicoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CadastroUnicoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9D9ABC28DD53E300929699 /* CadastroUnicoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroUnicoUITests.swift; sourceTree = "<group>"; };
 		1B9D9ABE28DD53E300929699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E106EE56453DCC6AA32FA6D /* Pods-CadastroUnicoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CadastroUnicoTests.release.xcconfig"; path = "Target Support Files/Pods-CadastroUnicoTests/Pods-CadastroUnicoTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F1941957E6233B5FD83018B /* Pods-CadastroUnico.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CadastroUnico.debug.xcconfig"; path = "Target Support Files/Pods-CadastroUnico/Pods-CadastroUnico.debug.xcconfig"; sourceTree = "<group>"; };
+		B4DD9CCB1246F4552A125191 /* Pods-CadastroUnico-CadastroUnicoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CadastroUnico-CadastroUnicoUITests.debug.xcconfig"; path = "Target Support Files/Pods-CadastroUnico-CadastroUnicoUITests/Pods-CadastroUnico-CadastroUnicoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBC459630610C914631D3B85 /* libPods-CadastroUnicoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CadastroUnicoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF94E845B05DAB24B04BB4F9 /* libPods-CadastroUnico-CadastroUnicoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CadastroUnico-CadastroUnicoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1EE0957AE1591F67689F7C1 /* Pods-CadastroUnicoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CadastroUnicoTests.debug.xcconfig"; path = "Target Support Files/Pods-CadastroUnicoTests/Pods-CadastroUnicoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E55A4BFAB1933E112B9F8D98 /* libPods-CadastroUnico.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CadastroUnico.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7AEE343719B159A0B7A397 /* Pods-CadastroUnico-CadastroUnicoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CadastroUnico-CadastroUnicoUITests.release.xcconfig"; path = "Target Support Files/Pods-CadastroUnico-CadastroUnicoUITests/Pods-CadastroUnico-CadastroUnicoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B489DDE28DD551000739D33 /* libAlamofire.a in Frameworks */,
+				AC868671B43045B501FE99DD /* libPods-CadastroUnico.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B4C944F154CF7F22A67F037 /* libPods-CadastroUnicoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +99,72 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06285A331F819571FC69ED64 /* libPods-CadastroUnico-CadastroUnicoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B489DE128DD585400739D33 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1B489DE228DD586400739D33 /* RestManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1B489DE628DD5B2300739D33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B489DDF28DD55C600739D33 /* Register.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B489DE728DD5B3C00739D33 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1B489DEC28DD5D0F00739D33 /* RegisterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1B489DE828DD5B4A00739D33 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B9D9A9D28DD53E000929699 /* Main.storyboard */,
+				1B9D9AA528DD53E300929699 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B489DE928DD5B6100739D33 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B9D9A9B28DD53E000929699 /* RegisterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1B489DEA28DD5B7800739D33 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				1B9D9A9728DD53E000929699 /* AppDelegate.swift */,
+				1B9D9A9928DD53E000929699 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		1B489DEB28DD5B9D00739D33 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B9D9AA328DD53E300929699 /* Assets.xcassets */,
+				1B9D9AA028DD53E000929699 /* CadastroUnico.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		1B9D9A8B28DD53E000929699 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +172,8 @@
 				1B9D9AB028DD53E300929699 /* CadastroUnicoTests */,
 				1B9D9ABB28DD53E300929699 /* CadastroUnicoUITests */,
 				1B9D9A9528DD53E000929699 /* Products */,
+				E65FEE7EDF4B71E66AA0F7B8 /* Pods */,
+				58BA7F0C3009E80AC3430A88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +190,14 @@
 		1B9D9A9628DD53E000929699 /* CadastroUnico */ = {
 			isa = PBXGroup;
 			children = (
-				1B9D9A9728DD53E000929699 /* AppDelegate.swift */,
-				1B9D9A9928DD53E000929699 /* SceneDelegate.swift */,
-				1B9D9A9B28DD53E000929699 /* ViewController.swift */,
-				1B9D9A9D28DD53E000929699 /* Main.storyboard */,
-				1B9D9AA328DD53E300929699 /* Assets.xcassets */,
-				1B9D9AA528DD53E300929699 /* LaunchScreen.storyboard */,
 				1B9D9AA828DD53E300929699 /* Info.plist */,
-				1B9D9AA028DD53E000929699 /* CadastroUnico.xcdatamodeld */,
+				1B489DEB28DD5B9D00739D33 /* Resources */,
+				1B489DEA28DD5B7800739D33 /* Delegates */,
+				1B489DE928DD5B6100739D33 /* Controller */,
+				1B489DE828DD5B4A00739D33 /* View */,
+				1B489DE728DD5B3C00739D33 /* ViewModel */,
+				1B489DE628DD5B2300739D33 /* Model */,
+				1B489DE128DD585400739D33 /* Network */,
 			);
 			path = CadastroUnico;
 			sourceTree = "<group>";
@@ -131,6 +220,30 @@
 			path = CadastroUnicoUITests;
 			sourceTree = "<group>";
 		};
+		58BA7F0C3009E80AC3430A88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B489DDD28DD551000739D33 /* libAlamofire.a */,
+				E55A4BFAB1933E112B9F8D98 /* libPods-CadastroUnico.a */,
+				BF94E845B05DAB24B04BB4F9 /* libPods-CadastroUnico-CadastroUnicoUITests.a */,
+				BBC459630610C914631D3B85 /* libPods-CadastroUnicoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E65FEE7EDF4B71E66AA0F7B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F1941957E6233B5FD83018B /* Pods-CadastroUnico.debug.xcconfig */,
+				02C0423E76A95D6BCAEE00B1 /* Pods-CadastroUnico.release.xcconfig */,
+				B4DD9CCB1246F4552A125191 /* Pods-CadastroUnico-CadastroUnicoUITests.debug.xcconfig */,
+				FA7AEE343719B159A0B7A397 /* Pods-CadastroUnico-CadastroUnicoUITests.release.xcconfig */,
+				D1EE0957AE1591F67689F7C1 /* Pods-CadastroUnicoTests.debug.xcconfig */,
+				6E106EE56453DCC6AA32FA6D /* Pods-CadastroUnicoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +251,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B9D9AC128DD53E300929699 /* Build configuration list for PBXNativeTarget "CadastroUnico" */;
 			buildPhases = (
+				F2BE95142F5A87A498D04220 /* [CP] Check Pods Manifest.lock */,
 				1B9D9A9028DD53E000929699 /* Sources */,
 				1B9D9A9128DD53E000929699 /* Frameworks */,
 				1B9D9A9228DD53E000929699 /* Resources */,
@@ -155,6 +269,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B9D9AC428DD53E300929699 /* Build configuration list for PBXNativeTarget "CadastroUnicoTests" */;
 			buildPhases = (
+				94C66E4EFD07F47120344074 /* [CP] Check Pods Manifest.lock */,
 				1B9D9AA928DD53E300929699 /* Sources */,
 				1B9D9AAA28DD53E300929699 /* Frameworks */,
 				1B9D9AAB28DD53E300929699 /* Resources */,
@@ -173,6 +288,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B9D9AC728DD53E300929699 /* Build configuration list for PBXNativeTarget "CadastroUnicoUITests" */;
 			buildPhases = (
+				BC18D6115077ABC045E55FBA /* [CP] Check Pods Manifest.lock */,
 				1B9D9AB428DD53E300929699 /* Sources */,
 				1B9D9AB528DD53E300929699 /* Frameworks */,
 				1B9D9AB628DD53E300929699 /* Resources */,
@@ -256,15 +372,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		94C66E4EFD07F47120344074 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CadastroUnicoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC18D6115077ABC045E55FBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CadastroUnico-CadastroUnicoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2BE95142F5A87A498D04220 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CadastroUnico-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B9D9A9028DD53E000929699 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B9D9A9C28DD53E000929699 /* ViewController.swift in Sources */,
+				1B9D9A9C28DD53E000929699 /* RegisterViewController.swift in Sources */,
 				1B9D9AA228DD53E000929699 /* CadastroUnico.xcdatamodeld in Sources */,
+				1B489DED28DD5D0F00739D33 /* RegisterViewModel.swift in Sources */,
 				1B9D9A9828DD53E000929699 /* AppDelegate.swift in Sources */,
+				1B489DE328DD586400739D33 /* RestManager.swift in Sources */,
 				1B9D9A9A28DD53E000929699 /* SceneDelegate.swift in Sources */,
+				1B489DE028DD55C600739D33 /* Register.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +461,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B9D9AB228DD53E300929699 /* CadastroUnicoTests.swift in Sources */,
+				1B489DEE28DD5D0F00739D33 /* RegisterViewModel.swift in Sources */,
+				1B489DE428DD586400739D33 /* RestManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +471,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B9D9ABD28DD53E300929699 /* CadastroUnicoUITests.swift in Sources */,
+				1B489DEF28DD5D0F00739D33 /* RegisterViewModel.swift in Sources */,
+				1B489DE528DD586400739D33 /* RestManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +629,7 @@
 		};
 		1B9D9AC228DD53E300929699 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F1941957E6233B5FD83018B /* Pods-CadastroUnico.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +649,7 @@
 		};
 		1B9D9AC328DD53E300929699 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02C0423E76A95D6BCAEE00B1 /* Pods-CadastroUnico.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +669,7 @@
 		};
 		1B9D9AC528DD53E300929699 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1EE0957AE1591F67689F7C1 /* Pods-CadastroUnicoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +692,7 @@
 		};
 		1B9D9AC628DD53E300929699 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E106EE56453DCC6AA32FA6D /* Pods-CadastroUnicoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +715,7 @@
 		};
 		1B9D9AC828DD53E300929699 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4DD9CCB1246F4552A125191 /* Pods-CadastroUnico-CadastroUnicoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +736,7 @@
 		};
 		1B9D9AC928DD53E300929699 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA7AEE343719B159A0B7A397 /* Pods-CadastroUnico-CadastroUnicoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

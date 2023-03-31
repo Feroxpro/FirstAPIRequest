@@ -1,0 +1,6 @@
+module Pods_CadastroUnico {
+  umbrella header "Pods-CadastroUnico-umbrella.h"
+
+  export *
+  module * { export * }
+}

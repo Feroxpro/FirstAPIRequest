@@ -1,0 +1,6 @@
+module Pods_CadastroUnico_CadastroUnicoUITests {
+  umbrella header "Pods-CadastroUnico-CadastroUnicoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
